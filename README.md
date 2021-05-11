@@ -11,11 +11,11 @@ npm install vue-vanta
 
 ```vue
 <template>
-  <v-vanta effect="waves" :options=options></v-vanta>
+  <v-vanta effect="waves" :options="options"></v-vanta>
 </template>
 
 <script>
-  import VVanta from 'veu-vanta';
+  import VVanta from 'vue-vanta';
   export default {
     components: { VVanta },
     data () {
